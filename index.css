@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: --apple-system, Verdana, Tahoma, sans-serif;
+  background-color: #8d99ae;
+  color: #f8f32b;
+  margin: 1rem auto;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: max(500px, 100%);
+  margin: 0.5rem auto;
+  gap: 1rem;
+  padding: 1.5rem;
+  background-color: #2b2d42;
+}
+
+section,
+header {
+  width: 100%;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  background-color: #2b2d42;
+}
+
+p {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.gameplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+label {
+  width: 20%;
+  flex: 0 1 20%;
+}
+
+input {
+  width: 50%;
+  flex: 0 0 60%;
+  font-size: 1rem;
+}
+
+button {
+  margin-left: 0;
+  flex: 0 0 10%;
+  font-size: 1rem;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+}
+
+.result-text {
+  width: 40%;
+  text-align: left;
+  margin-left: 30%;
+}
+
+#btn-restart {
+  display: none;
+  width: 40%;
+  font-size: 1.5rem;
+  margin: 1rem auto;
+}
+
+#result-guess-status {
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+
